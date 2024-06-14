@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+    display: none; 
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+.imgContainer{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    text-align: center;
+    margin-top: 20px;
+}
+.button{
+    transition: 0.3s;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 6px 30px;
+    color: white;
+    border: none;
+    background-color: aqua;
+    box-shadow: 5px 5px 6px gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(1, 147, 147);
+}
+.input{
+    font-family: monospace;
+    font-size: 20px;
+    padding: 5px 0px;
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 5px 4px 6px gray;
+    border: 2px solid black;
+}
